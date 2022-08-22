@@ -1,12 +1,10 @@
 {
-  "name": "ZER_NAME",
+  "name": "some website",
   "version": "0.0.1",
   "description": "Some website",
   "scripts": {
     "dev": "vite",
-    "dev-webpack": "export NODE_ENV=development && webpack serve --hot --progress --config webpack/webpack.dev.js",
-    "build": "export NODE_ENV=production && webpack --progress --config webpack/webpack.prod.js",
-    "analyze": "webpack --progress --config webpack/webpack.prod.js"
+    "build": "vite build"
   },
   "author": "",
   "license": "ISC",
